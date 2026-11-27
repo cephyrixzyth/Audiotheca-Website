@@ -1,6 +1,6 @@
 # Audiotheca website
 
-Interactive showcase site for [Audiotheca](https://github.com/cephyrixzyth/Audiotheca), the self-hosted audio library dedupe and routing engine.
+Interactive showcase site, live at https://chrisjrovira.com/Audiotheca/, for [Audiotheca](https://github.com/cephyrixzyth/Audiotheca), the self-hosted audio library dedupe and routing engine.
 
 It is a static site with no build step: `index.html`, `styles.css`, `app.js` and `assets/`.
 
@@ -21,9 +21,11 @@ python -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Publish on GitHub Pages
+## Publishing
 
-Settings → Pages → Deploy from a branch → `main` / root. `.nojekyll` is included.
+The live copy is served from the `Audiotheca/` folder of [cephyrixzyth/chrisjrovira.com](https://github.com/cephyrixzyth/chrisjrovira.com) at https://chrisjrovira.com/Audiotheca/. After changing this repo, copy `index.html`, `styles.css`, `app.js` and `assets/` into that folder and open a PR there.
+
+This repo can also be published on its own with GitHub Pages (Settings → Pages → Deploy from a branch → `main` / root). `.nojekyll` is included.
 
 ## Assets
 
